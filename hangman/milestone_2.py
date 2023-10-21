@@ -12,11 +12,10 @@ print(word)
 
 #Taking single letter guess:
 
-
 guess = input("Please enter single letter guess: ")
 if len(guess) == 1:
     print("Good guess!")
 else:
     print("Oops! That is not a valid input")
-    
+
 
